@@ -1,5 +1,5 @@
 # UnityEditorExtensionGetTransformsRange
-## 範囲を指定して子オブジェクトの配列を取得するスクリプト
+## 指定したゲームオブジェクトの子オブジェクト達から範囲指定した箇所を取得するスクリプト
 
 
 # How to Use
