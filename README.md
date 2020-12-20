@@ -1,6 +1,13 @@
 # UnityEditorExtensionGetTransformsRange
 ## 範囲を指定して子オブジェクトの配列を取得するスクリプト
 
+
+# How to Use
+- Assets/Scripts/GameObjectExtensions.csを各自プロジェクトにimportする．
+- 適宜Assets/Scripts/Test.csを各自プロジェクトにimportし，カスタマイズすると良い．
+
+メインとなる関数は↓である．
+
 ```c# : GameObjectExtensions.cs
 public static Transform[] GetTransformsRange(this GameObject self, string from, string to, bool includeActive = false)
 ```
